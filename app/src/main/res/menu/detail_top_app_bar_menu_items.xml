@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuItemDetailShare"
+        android:title="Share"
+        android:contentDescription="Share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/menuItemDetailDelete"
+        android:icon="@drawable/ic_delete"
+        android:contentDescription="Delete Todo"
+        android:title="Delete"
+        app:showAsAction="always" />
+
+</menu>
